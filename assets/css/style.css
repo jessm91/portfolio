@@ -1,3 +1,26 @@
+* {
+    font-family: Arial;
+}
+
+:root {
+    --primary-color: #20b2aa;
+    --secondary-color: #b19cd9;
+    --tertiary-color: #D99294;
+    --quaternary-color: #779ecb;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+h3 {
+    color: var(--tertiary-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
 .container {
     margin: 15px;
 }
@@ -14,4 +37,11 @@
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
 }
