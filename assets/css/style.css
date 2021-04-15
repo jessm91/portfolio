@@ -21,35 +21,29 @@ h1 {
 }
 
 h2 {
-    color: var(--primary-color);
+    color: var(--quaternary-color);
     text-align: right;
     margin: 15px;
 }
 
 h3 {
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
     text-align: center;
     font-size: 26px;
 }
 
-p {
-    text-align: center;
-    color: var(--secondary-color);
-    font-weight: bold;
-    margin: 15px 200px;
-}
-
-ul {
+#navbar ul {
     list-style-type: none;
-    padding-left: 950px;
+    padding-left: 975px;
 }
 
-li {
+#navbar li {
     display: inline-block;
 }
 
 #navbar a {
     font-weight: bold;
+    font-size: 22px;
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
@@ -57,7 +51,7 @@ li {
 }
 
 #navbar a:hover {
-    color: var(--secondary-color);
+    color: var(--quaternary-color);
     font-weight: bold;
 }
 
@@ -78,7 +72,7 @@ li {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    border-right: 5px solid var(--quaternary-color);
+    border-right: 5px solid var(--primary-color);
     margin: 5px;
 }
 
@@ -87,4 +81,33 @@ li {
     flex-direction: column;
     flex-basis: 100%;
     flex: 2;
+}
+
+#contactLink a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    padding: 14px 26px;
+}
+
+#contactLink a:hover {
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+#contactLink ul {
+    text-decoration: none;
+    text-align: center;
+}
+
+#contactLink li {
+    display: inline-block;
+}
+
+.collabproject-tile {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 1;
 }
