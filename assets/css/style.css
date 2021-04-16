@@ -9,11 +9,6 @@
     --quaternary-color: #779ecb;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
 h1 {
     color: var(--primary-color);
     text-align: center;
@@ -32,9 +27,20 @@ h3 {
     font-size: 26px;
 }
 
+a {
+    text-decoration: none;
+}
+
+nav {
+    margin: 7px 0;
+}
+
 #navbar ul {
-    list-style-type: none;
-    padding-left: 975px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
 }
 
 #navbar li {
@@ -88,8 +94,8 @@ h3 {
     color: var(--tertiary-color);
     font-weight: bold;
     text-align: center;
-    font-size: 22px;
-    padding: 14px 26px;
+    font-size: 20px;
+    margin: 0 15px;
 }
 
 #contactLink a:hover {
@@ -99,7 +105,7 @@ h3 {
 
 #contactLink ul {
     text-decoration: none;
-    text-align: center;
+    text-align: left;
 }
 
 #contactLink li {
@@ -107,7 +113,29 @@ h3 {
 }
 
 .collabproject-tile {
-    display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.collabproject-tile a {
+    color: var(--tertiary-color);
+    font-weight: bold;
+}
+
+.collabproject-tile a:hover {
+    color: var(--secondary-color);
+}
+
+img {
+    height: 50%; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+img:hover {
+    opacity: .5;
 }
