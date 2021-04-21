@@ -13,14 +13,17 @@
 h1 {
     color: var(--primary-color);
     text-align: center;
-    font-size: 44px;
+    font-size: 56px;
     padding-top: 100px;
+    font-family: 'DotGothic16', sans-serif;
 }
 
 h2 {
     color: var(--quaternary-color);
     text-align: right;
     margin: 15px;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 36px;
 }
 
 h3 {
