@@ -72,6 +72,13 @@ nav {
     padding: 35px 0px;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 40px;
+    grid-column-gap: 22px;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -93,7 +100,7 @@ nav {
     flex-basis: 100%;
     flex: 2;
     margin: 100px;
-    padding-right: 350px;
+    padding-right: 130px;
 }
 
 #contactLink a {
@@ -119,35 +126,27 @@ nav {
     display: inline-block;
 }
 
-.collabproject-tile {
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-items: left;
-    flex: 1 1 1;
-    height: 100px;
+.certtile, .project-tile, .collabproject-tile {
     color: var(--quaternary-color);
     font-weight: bold;
+    text-align: center;
+    font-size: 18px;
 }
 
-.collabproject-tile a {
+.certtile a, .project-tile a, .collabproject-tile a {
     color: var(--tertiary-color);
     font-weight: bold;
     font-size: 22px;
 }
 
-.collabproject-tile a:hover {
+.certtile a:hover, .project-tile a:hover, .collabproject-tile a:hover {
     color: var(--secondary-color);
     opacity: .5;
 }
 
 img {
-    height: 40%; 
-    width: auto; 
-    max-width: 250px; 
-    max-height: 250px;
-    padding-left: 15px;
-    padding-right: 15px;
+    height: auto; 
+    width: 220px;
 }
 
 img:hover {
