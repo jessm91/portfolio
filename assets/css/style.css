@@ -56,7 +56,6 @@ nav {
 #navbar a {
     font-weight: bold;
     font-size: 22px;
-    text-align: center;
     text-decoration: none;
     padding: 14px 16px;
     color: var(--tertiary-color);
@@ -176,3 +175,36 @@ img:hover {
   ::-webkit-scrollbar-thumb:hover {
     background: var(--primary-color);
   }
+
+
+  /* Media Queries */
+
+  @media screen and (max-width: 768px) {
+
+  }
+
+  @media screen and (max-width: 576px) {
+
+    .column {
+        display: flex;
+        flex-basis: 100%;
+        flex: 1;
+        border: none;
+        text-align: center;
+    }
+
+    .right-column {
+            padding-right: 0px;
+            display: flex;
+            flex-direction: row;
+            flex-basis: 100%;
+            flex: 2;
+            margin: 0px;
+        }
+
+    h2 {
+        padding: 40px;
+    }
+
+    }
+      
