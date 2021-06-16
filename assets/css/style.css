@@ -67,6 +67,10 @@ nav {
     font-weight: bold;
 }
 
+#welcome-section {
+    height: 90vh;
+}
+
 .container {
     margin: 5px;
     padding: 35px 0px;
@@ -152,3 +156,23 @@ img {
 img:hover {
     opacity: .5;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
+  }
